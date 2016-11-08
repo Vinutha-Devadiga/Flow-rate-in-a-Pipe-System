@@ -69,7 +69,7 @@ main()
     scanf("%d",&tank[2].f);
     rewind(stdin);
 
-    tank[0].r = losses(tank[0].f , tank[0].l , tank[0].d);    /* Calculate r for Piper */
+    tank[0].r = losses(tank[0].f , tank[0].l , tank[0].d);    /* Calculate r for Pipes */
     tank[1].r = losses(tank[1].f , tank[1].l , tank[1].d);
     tank[2].r = losses(tank[2].f , tank[2].l , tank[2].d);
 
